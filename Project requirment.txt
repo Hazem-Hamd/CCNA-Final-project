@@ -1,0 +1,20 @@
+Project Requirment
+
+1- L2 switch (can use many switches)
+  - vlan (10, 20 ,30 ,40, ..,... include management vlan)
+  - vlan 10 (100 host) vlan 20 (50 host ) , vlan 30 (25 host ), vlan 40 (10 host )
+  - basic configuration ( console , Vty , enable password, hostname , SSH,TELNET)
+  - PORT SECURITY 
+  -  Bpdu Guard 
+  - use wirless access point 
+2- L3 Switch (two Multilayer switch )
+  - inter vlan
+  - use Hsrp between Vlan Gateways 
+  - use ospf for Advertise vlans network ip
+  - use Etherchannel between Multilayer switch
+3- use 3 Routers and advertise routing by ospf protocol
+   - user server to check reachability
+   - apply Access control list (http,ICMP) 
+4- use dynamic ip for clients
+- use TFTP for backup configuration and IOS
+
